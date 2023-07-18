@@ -74,4 +74,12 @@
     transform: translateX(-50%);
 }
 
-#hrs:
+#hrs::after{
+    content: "HOURS";
+}
+#min::after{
+    content: "MINS";
+}
+#sec::after{
+    content: "SEC";
+}
